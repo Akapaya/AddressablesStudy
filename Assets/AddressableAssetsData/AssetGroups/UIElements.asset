@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIElements
+  m_EditorClassIdentifier: 
+  m_GroupName: UIElements
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4a548ec8cd39f8a4a8a8dc898a0c93d6
+  m_SerializeEntries:
+  - m_GUID: c3a9b5d611a35464a8e473e4249a1df9
+    m_Address: LoadyDungeonsLogo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4be9a2c8574f1df4fa10644e2c2fd2bf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 10daea825e42f2f4c97ce07469b7c03d, type: 2}
+    - {fileID: 11400000, guid: 88d6554081208dc4eb8f946981e6080f, type: 2}
