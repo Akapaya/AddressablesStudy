@@ -1,43 +1,34 @@
-![LD](https://user-images.githubusercontent.com/263776/110165036-dde21300-7db7-11eb-8f49-e7745ed44b35.png)
+# Projeto Unity: Addressables Project
 
-# Loady Dungeons
-Loady Dungeons is a **demo game** intended to onboard users into using the [Addressable Assets](https://docs.unity3d.com/Packages/com.unity.addressables@0.3/manual/index.html) package and the Unity [Cloud Content Delivery](https://unity.com/products/cloud-content-delivery) service. Although there is a lot of room for code and asset optimizations, the demo is designed to demonstrate the uses of the Addressables and CCD tools. 
+Bem-vindo ao meu repositório Unity, onde compartilho meu projeto desenvolvido como parte do curso oficial da Unity. Este projeto é um estudo de Addressables e CDN.
 
-In addition, there is also a Remote Config integration for users to understand how to implement Remote Config and how to integrate it with an existing CCD and Addressables project.
+## Descrição do Projeto
 
-:computer: If you are following the video tutorial, you can download the starting project [here](https://github.com/UnityTechnologies/LoadyDungeons/releases/tag/ws0.4.0).
+### Desafios Addressables Project
+A jogabilidade é simples: você controla Dino em sua missão para descobrir todas as masmorras do mundo. Toque em qualquer lugar do mapa e ela se moverá para esse local. Encontre o baú, pegue a chave e abra a porta para passar para o próximo nível.
 
-### Gameplay
-The gameplay is simple: you control _Dino_ on her quest to discover all the dungeons in the world. Touch anywhere on the floor of the map, and she will move to that spot. Find the chest, get the key and open the door to go to the next level.
+O teste principal conta com incluir os chapéus no sistema de addressables e instancia-los no personagem, porém contem outros assuntos como CDN e Profiles.
 
-### Prerequisites
-* Unity Version: 2021.3.2f1 (LTS) 
-* Authentication: 2.0.0
-* Addressables Package: 1.19.19
-* Cloud Content Delivery Management: 2.0.4
-* Remote Config Version: 3.0.0-pre.29
+https://github.com/Akapaya/AddressablesStudy/assets/63330951/07176a3c-0ac2-46f8-8609-c49ab156909e
 
-# Services Overview
-**Authentication** :
->Authentication allows the user to log-in securely as a single sign-on across platforms. This allows developers to allocate and associate data with that account which is important for Cloud Content Delivery and Remote Config services to function correctly.
+![Screenshot 2024-01-22 094205](https://github.com/Akapaya/AddressablesStudy/assets/63330951/3826bbf9-d5f1-470f-aca2-24dbaa0c533c)
 
-**Cloud Content Delivery** :
->Loady Dungeons utilizes the benefits of Cloud Content Delivery to manage and offload data to the Cloud and dynamically retrieve it when the player needs it. This ensures that developers can continue to build, update, edit and deploy game content updates with minimal hassle and supported by a world-class Content Delivery Network
+## Desafios e Conquistas Unity
+Este projeto abrange o uso de addressables e CDN na unity.
 
-**Remote Config** :
->By integrating Remote Config, developers are able to deploy a change to their game immediately without the need for patching or downloading. In Loady Dungeons, the Remote Config dashboard and relevant scripts allows you to change which hats are available, if any seasonal levels should be displayed, and even if the localization language should be different! 
+## Tecnologias e Habilidades Demonstradas
 
-:construction: We are still working on the project, if you have any suggestions or would like to contribute please let us know.
+- Unity3D
+- C#
+- Addressables
+- CDN
+- Profiles
 
-![AllLevels](https://user-images.githubusercontent.com/263776/110165940-42ea3880-7db9-11eb-871c-13e4933e2540.png)
+## Contato
 
-### Asset Bundle Architecture
-The project uses a simple approach for managing the bundles with the assets. Each **gameplay scene** is bundled in a separate group (Level_00, Level_01, Level_02 and Level_03). Level_01 is bundled with the game, so it uses the LocalBuildPath and LocalLoadPath. The other levels and the Hats group(containing prefabs as Addressable assets) are bundled separate (and downloaded from the cloud), they use the RemoteBuilPath and RemoteLoadPath.
+Sinta-se à vontade para entrar em contato comigo para discutir mais sobre este projeto ou colaborações futuras.
 
-![Asset Architecture](https://user-images.githubusercontent.com/263776/110168293-9611ba80-7dbc-11eb-9945-417a16c3386d.jpg)
+- Email: gregory_valentim@hotmail.com
+- LinkedIn: [Gregory Valentim](https://www.linkedin.com/in/gregory-valentim/)
 
-### Additional Resources
-* If you’d like to learn more about this demo, and how to use Cloud Content Delivery, [click here](https://www.youtube.com/watch?v=J9XbISBpfp0). 
-* If you’d like to watch the full Technical Workshop for Cloud Content Delivery, [click here](https://www.youtube.com/watch?v=5IvPPI7YnwU). 
-* To learn more about the Remote Config branch, [click here](https://www.youtube.com/watch?v=RL3-VY8runI). 
-* If you want to learn more about how to optimize the usage of Addressables, read [this post](https://blog.unity.com/technology/tales-from-the-optimization-trenches-saving-memory-with-addressables) by Patrick DeVarney. 
+Obrigado por explorar este projeto Unity.
